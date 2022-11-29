@@ -1,18 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Desenvolvedor M3</title>
-  <link rel="stylesheet" href="main.css" />
+  <title>E-commerce</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+  <div classs="background">
+    <nav>
+      <div class="logo">
+        <img src="img/logo-m3.png">
+      </div><!--logo-->
+      
+      <div class="cabeçalho-link">
+        <li>
+          <a href="#">INÍCIO</a>
+        </li>
+        <li>
+          <a href="#">DESTAQUE</a>
+        </li>
+        <li>
+          <a href="#">NOVO</a>
+        </li>
+        <li>
+          <a href="#">CONTATO</a>
+        </li>
 
+        <div class="icon">
+          <img src="img/image 3.png">
+
+          <div class="carrinho">
+            <h2 class="carrinho-titulo">Seu Carrinho</h2>
+            <div class="carrinho-conteudo">
+              <div class="carrinho-box">
+                <img src="img/img_2.png" alt="" class="carrinho-img">
+                <div class="detalhe-box">
+                  <div class="carrinho-produto-titulo">Camiseta mescla</div>
+                  <div class="carrinho-preço">$25</div>
+                  <input type="numero" value="1" class="carrinho-quant">
+                </div><!--conteúdo carrinho-->
+                <i class='bx bxs-trash-alt carrinho-remove'></i>
+                
+          </div><!--carrinho-->
+
+          <div class="total">
+            <div class="total-titulo">Total</div>
+            <div class="total-preço">$0</div>
+            </div><!--total-->
+
+          <button type="button" class="btn-buy">FINALIZAR COMPRA</button><!--botão compra-->
+
+          <i class='bx bx-x' id="fechar-carrinho"></i><!--fechar carrinho-->
+
+
+
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </div><!--background-->
+
+  <!--shop-->
+  <section class="shop-container">
+    <div class="container-roupas">
+
+      <div class="roupa">
+        <img src="img/img_2.png" alt="">
+       <h2 class="produto-titulo">Lorem Ipsum dizgi</h2>
+       <h5 class="preço">$188</h5>
+       <br>
+       <a href="#" class="btn">COMPRAR</a>
+   </div><!--roupa-->
+
+   <div class="roupa">
+    <img src="img/img_3.png" alt="">
+   <h2 class="produto-titulo">Lorem Ipsum dizgi</h2>
+   <h5 class="preço">$188</h5>
+   <br>
+   <a href="#" class="btn">COMPRAR</a>
+</div><!--roupa-->
+
+<div class="roupa">
+  <img src="img/img_4.png" alt="">
+ <h2 class="produto-titulo">Lorem Ipsum dizgi</h2>
+ <h5 class="preço">$188</h5>
+ <br>
+ <a href="#" class="btn">COMPRAR</a>
+</div><!--roupa-->
+
+<div class="roupa">
+  <img src="img/img_5.png" alt="">
+ <h2 class="produto-titulo">Lorem Ipsum dizgi</h2>
+ <h5 class="preço">$188</h5>
+ <br>
+ <a href="#" class="btn">COMPRAR</a>
+</div><!--roupa-->
+
+<div class="roupa">
+  <img src="img/img_6.png" alt="">
+ <h2 class="produto-titulo">Lorem Ipsum dizgi</h2>
+ <h5 class="preço">$188</h5>
+ <br>
+ <a href="#" class="btn">COMPRAR</a>
+</div><!--roupa-->
+
+<div class="roupa">
+  <img src="img/img_7.png" alt="">
+ <h2 class="produto-titulo">Lorem Ipsum dizgi</h2>
+ <h5 class="preço">$188</h5>
+ <br>
+ <a href="#" class="btn">COMPRAR</a>
+</div><!--roupa-->
+
+<div class="roupa">
+  <img src="img/img_8.png" alt="">
+ <h2 class="produto-titulo">Lorem Ipsum dizgi</h2>
+ <h5 class="preço">$188</h5>
+ <br>
+ <a href="#" class="btn">COMPRAR</a>
+</div><!--roupa-->
+
+<div class="roupa">
+  <img src="img/img_9.png" alt="">
+ <h2 class="produto-titulo">Lorem Ipsum dizgi</h2>
+ <h5 class="preço">$188</h5>
+ <br>
+ <a href="#" class="btn">COMPRAR</a>
+</div><!--roupa-->
+
+<div class="roupa">
+  <img src="img/img_10.png" alt="">
+ <h2 class="produto-titulo">Lorem Ipsum dizgi</h2>
+ <h5 class="preço">$188</h5>
+ <br>
+ <a href="#" class="btn">COMPRAR</a>
+</div><!--roupa-->
+      
+      
+    </div><!--container-roupas-->
+  </section>
+
+  <footer>
+    <p>M3: IMPLANTAÇÃO DE E-COMMERCE VTEX</p>
+    <div class="social">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-regular fa-envelope"></i></a>
+    </div>
+</footer><!--rodapé-->
 </body>
-<h1>Desafio m3</h1>
 
 <script src="bundle.js"></script>
 
